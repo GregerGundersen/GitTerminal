@@ -1,0 +1,24 @@
+body {
+  margin: 0 10vw;
+  background-color: lightgray;
+}
+
+.headersection {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+main div {
+  background-color: #bbb8b8;
+  border-radius: 3%;
+}
+
+main div > * {
+  margin: 1rem;
+}
